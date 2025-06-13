@@ -3,9 +3,7 @@
 ## Business Understanding
 **Jaya Jaya Institut** merupakan sebuah institusi pendidikan tinggi yang telah berdiri sejak tahun 2000. Selama dua dekade, institusi ini dikenal telah meluluskan banyak alumni berkualitas. Namun, dalam beberapa tahun terakhir, mereka menghadapi permasalahan serius, yaitu **tingginya angka dropout (putus kuliah) dari para siswa**.
 
-Fenomena ini tentu mengganggu reputasi dan performa institusi. Jika tidak ditangani secara serius, dropout dapat berdampak pada akreditasi, kepercayaan masyarakat, hingga keberlanjutan institusi.
-
-Untuk itu, **Jaya Jaya Institut** ingin memanfaatkan data historis performa siswa guna **memprediksi kemungkinan dropout secara dini**, agar pihak kampus dapat memberikan intervensi atau bimbingan lebih awal kepada siswa yang berisiko tinggi.
+Fenomena ini tentu mengganggu reputasi dan performa institusi. Jika tidak ditangani secara serius, dropout dapat berdampak pada akreditasi, kepercayaan masyarakat, hingga keberlanjutan institusi. Untuk itu, **Jaya Jaya Institut** ingin memanfaatkan data historis performa siswa guna **memprediksi kemungkinan dropout secara dini**, agar pihak kampus dapat memberikan intervensi atau bimbingan lebih awal kepada siswa yang berisiko tinggi.
 
 ---
 
