@@ -36,6 +36,8 @@ Setup environment:
 ```
 
 ## Business Dashboard
+![dashboard](https://github.com/user-attachments/assets/79f4520e-4dd1-4b17-9d0e-438d194351a3)
+
 ### 🧾 Deskripsi Umum
 
 Dashboard ini dirancang untuk memvisualisasikan performa mahasiswa berdasarkan data yang dikumpulkan dari institusi pendidikan tinggi. Tujuan dari dashboard ini adalah untuk memberikan **insight analitis** terhadap karakteristik demografis, sosial-ekonomi, dan akademik mahasiswa, serta performa mereka selama dua semester pertama kuliah.
