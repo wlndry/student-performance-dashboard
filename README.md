@@ -281,6 +281,22 @@ Klik tombol **🔍 Prediksi Status**, dan sistem akan menampilkan status mahasis
 Jelaskan konklusi dari proyek yang dikerjakan.
 
 ### Rekomendasi Action Items
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
-- action item 1
-- action item 2
+
+**1. Sistem Deteksi Risiko Dropout Otomatis (Early Detection Tool)**  
+Bangun sistem berbasis machine learning yang terintegrasi dengan database kampus untuk secara otomatis memantau siswa dengan potensi dropout tinggi. Sistem ini bisa dijalankan setiap semester dan menghasilkan daftar prioritas untuk intervensi.
+
+**2. Intervensi Akademik Terfokus**  
+Sediakan sesi konsultasi belajar, tutor tambahan, atau remedial khusus bagi mahasiswa yang memiliki nilai rendah pada semester 1 dan 2—karena dua semester awal terbukti krusial terhadap kelulusan.
+
+**3. Pendampingan Finansial dan Administratif**  
+Tawarkan opsi cicilan, bantuan pembayaran, atau jalur beasiswa tambahan bagi mahasiswa yang tidak membayar tepat waktu (tuition not up-to-date), karena keterlambatan finansial berkorelasi dengan dropout.
+
+**4. Penyesuaian Kebijakan untuk Mahasiswa Non-Tradisional**  
+Kembangkan kebijakan khusus untuk mahasiswa dewasa, yang sudah menikah, atau memiliki keluarga—misalnya kuliah malam, kelas hybrid, atau cuti akademik yang fleksibel.
+
+**5. Pembaruan Model Prediksi Secara Berkala**  
+Lakukan retraining model prediksi setiap 6–12 bulan dengan data terbaru, agar tetap akurat dan relevan seiring perubahan tren mahasiswa dan kebijakan kampus.
+
+**6. Analisis dan Pelaporan Manajemen Rutin**  
+Bangun dashboard visualisasi (Metabase/Streamlit) yang dapat digunakan oleh manajemen setiap bulan untuk memantau tren risiko, performa unit mata kuliah, dan hasil intervensi.
+
