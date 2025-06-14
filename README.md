@@ -36,7 +36,71 @@ Setup environment:
 ```
 
 ## Business Dashboard
-Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
+### 🧾 Deskripsi Umum
+
+Dashboard ini dirancang untuk memvisualisasikan performa mahasiswa berdasarkan data yang dikumpulkan dari institusi pendidikan tinggi. Tujuan dari dashboard ini adalah untuk memberikan **insight analitis** terhadap karakteristik demografis, sosial-ekonomi, dan akademik mahasiswa, serta performa mereka selama dua semester pertama kuliah.
+Dashboard berfokus pada **eksplorasi data** secara visual untuk mendukung pengambilan keputusan oleh stakeholder akademik, seperti dosen, manajer program studi, dan pihak administrasi kampus.
+
+---
+
+### 🔍 Fitur Utama
+
+#### 1. Overview
+Menampilkan gambaran umum dataset dan penjelasan fitur-fitur penting, termasuk tujuan analisis dan struktur data.
+
+#### 2. Distribusi Target
+Visualisasi distribusi status akhir mahasiswa (Dropout, Graduate, Enrolled) untuk melihat komposisi keseluruhan outcome.
+
+#### 3. Data Demografis
+Analisis terhadap:
+- Jenis kelamin (`Gender`)
+- Usia saat pendaftaran (`Age at enrollment`)
+- Status pernikahan (`Marital status`)
+- Asal daerah (`Displaced`)
+- Kebangsaan (`Nationality`)
+- Status internasional
+
+#### 4. Data Sosial-Ekonomi
+Analisis pekerjaan dan pendidikan orang tua, status beasiswa, status pembayaran, kebutuhan khusus, serta indikator ekonomi (tingkat pengangguran, inflasi, GDP).
+
+#### 5. Data Akademik Sebelum Kuliah
+Meliputi mode pendaftaran, urutan pilihan, nilai masuk (`Admission grade`), dan kualifikasi sebelumnya.
+
+#### 6. Performa Akademik Semester 1 & 2
+Visualisasi performa mahasiswa berdasarkan:
+- Mata kuliah yang diambil, lulus, dan dinilai
+- Nilai rata-rata
+- Jumlah mata kuliah tanpa evaluasi
+
+---
+
+### 🛠️ Teknologi yang Digunakan
+
+- **Python**
+- **Streamlit**: Antarmuka dashboard interaktif
+- **Pandas**: Pengolahan data
+- **Seaborn & Matplotlib**: Visualisasi grafik
+---
+
+## 🌐 Link Akses Dashboard
+
+🔗 [Klik di sini untuk membuka dashboard]([https://your-username-your-app.streamlit.app](https://student-performance-dashboard-qrk5mkxszrb5rrdfzchsob.streamlit.app/))
+
+---
+
+### 📂 Struktur Menu Dashboard
+
+| Menu                        | Konten Visualisasi                              |
+|----------------------------|--------------------------------------------------|
+| Overview                   | Deskripsi dataset & penjelasan kolom            |
+| Distribusi Target          | Countplot status mahasiswa                      |
+| Data Demografis            | Boxplot / Countplot data demografi              |
+| Data Sosial-Ekonomi        | Visualisasi kondisi sosial & ekonomi            |
+| Data Akademik Sebelum Kuliah| Nilai & riwayat akademik saat pendaftaran      |
+| Performa Semester 1        | Nilai & evaluasi mata kuliah semester 1         |
+| Performa Semester 2        | Nilai & evaluasi mata kuliah semester 2         |
+
+---
 
 ## Menjalankan Sistem Machine Learning
 Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
