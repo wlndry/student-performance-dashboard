@@ -213,6 +213,69 @@ Contoh hasil prediksi:
 
 🔗 [Klik di sini untuk membuka prototype](https://student-performance-prediction-f6eybl9m9wvjlfmmhvylgx.streamlit.app/)
 
+### 🔧 Langkah-Langkah Menjalankan Prototipe Sistem Machine Learning
+
+#### 1. Aktifkan Virtual Environment (Opsional, tetapi direkomendasikan)
+
+```bash
+# Untuk Windows
+python -m venv venv
+venv\Scripts\activate
+
+# Untuk MacOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+
+#### 2. Install Dependensi
+Pastikan Anda sudah berada di dalam direktori proyek, lalu jalankan:
+
+```bash
+pip install -r requirements.txt
+```
+
+#### 3. Siapkan Model
+Pastikan file `model.pkl` (hasil training model machine learning) sudah ada di dalam direktori yang sama dengan `app.py`.
+
+Jika belum, jalankan notebook.ipynb untuk menghasilkan file `model.pkl`.
+
+---
+
+#### 4. Jalankan Aplikasi Streamlit
+
+Untuk menjalankan aplikasi prediksi status mahasiswa berbasis Streamlit, gunakan perintah berikut:
+
+```bash
+streamlit run app.py
+```
+
+Tunggu hingga browser otomatis terbuka. Jika tidak, buka secara manual alamat yang diberikan, biasanya:
+
+```
+http://localhost:8501
+```
+
+---
+
+#### 5. Masukkan Data Input
+Setelah aplikasi berjalan, pengguna diminta untuk mengisi formulir prediksi yang terbagi menjadi beberapa bagian:
+
+- **Data Sosial dan Demografis**
+- **Data Akademik**
+- **Data Ekonomi**
+
+Isi sesuai kondisi mahasiswa yang ingin diprediksi.
+
+---
+
+#### 6. Lihat Hasil Prediksi
+Klik tombol **🔍 Prediksi Status**, dan sistem akan menampilkan status mahasiswa berdasarkan model yang telah dilatih, seperti:
+
+- 🔴 Dropout
+- 🟢 Enrolled
+- 🎓 Graduate
+
+---
 
 ## Conclusion
 Jelaskan konklusi dari proyek yang dikerjakan.
