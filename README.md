@@ -105,11 +105,65 @@ Visualisasi performa mahasiswa berdasarkan:
 ---
 
 ## Menjalankan Sistem Machine Learning
-Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
+Prototype ini merupakan aplikasi web interaktif berbasis **Streamlit** yang digunakan untuk memprediksi **status mahasiswa**:  
+- 🔴 Dropout  
+- 🟢 Enrolled  
+- 🎓 Graduate  
 
-```
+Prediksi dilakukan berdasarkan data sosiodemografis, nilai akademik semester awal, serta beberapa indikator ekonomi. Aplikasi ini menggunakan model **Random Forest Classifier** yang telah dilatih dan disimpan dalam file `model.pkl`.
 
-```
+### 📥 Input Pengguna
+
+Pengguna akan diminta mengisi data melalui form antarmuka web dengan dua kolom. Input mencakup:
+
+#### 🔹 Data Sosial dan Demografis:
+- **Marital Status** (Single, Married, dll.)
+- **Application Mode** (1st phase, Transfer, dll.)
+- **Gender**
+- **Age at Enrollment**
+- **Nationality**
+- **Displaced**
+- **Special Needs**
+- **Debtor**
+- **Tuition Fees Up To Date**
+- **Scholarship Holder**
+- **International**
+
+#### 🔹 Data Akademik:
+- **Application Order**
+- **Course**
+- **Previous Qualification** & **Grade**
+- **Admission Grade**
+- **Mother's/Father's Qualification** & **Occupation**
+- **Data Semester 1 & 2:**
+  - **Credited**
+  - **Enrolled**
+  - **Evaluated**
+  - **Approved**
+  - **Grade**
+  - **Without Evaluation**
+
+#### 🔹 Data Ekonomi:
+- **Unemployment Rate (%)**
+- **Inflation Rate (%)**
+- **GDP (x1000)**
+
+---
+
+### ✅ Output Aplikasi
+
+Setelah pengguna menekan tombol **"🔍 Prediksi Status"**, sistem akan memproses input dan menampilkan prediksi status mahasiswa.
+
+Contoh hasil prediksi:
+
+- 🔴 **Dropout**
+- 🟢 **Enrolled**
+- 🎓 **Graduate**
+
+### 🌐 Link Akses Prototype
+
+🔗 [Klik di sini untuk membuka dashboard](https://student-performance-dashboard-qrk5mkxszrb5rrdfzchsob.streamlit.app/)
+
 
 ## Conclusion
 Jelaskan konklusi dari proyek yang dikerjakan.
