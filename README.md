@@ -278,7 +278,12 @@ Klik tombol **🔍 Prediksi Status**, dan sistem akan menampilkan status mahasis
 ---
 
 ## Conclusion
-Jelaskan konklusi dari proyek yang dikerjakan.
+Melalui proyek ini, Jaya Jaya Institut berhasil mengembangkan sistem prediksi risiko dropout berbasis machine learning yang didukung oleh analisis data historis mahasiswa. Model prediktif ini mampu mengidentifikasi siswa dengan potensi tinggi untuk putus kuliah (dropout) secara lebih awal, sehingga pihak institusi dapat melakukan intervensi yang lebih tepat waktu dan efektif. Ini menjawab kebutuhan mendesak akan **sistem deteksi dini** yang sebelumnya belum tersedia di lingkungan kampus.
+
+Selain itu, dengan memanfaatkan data sosial, akademik, dan ekonomi mahasiswa, proyek ini mendorong terciptanya budaya **pengambilan keputusan berbasis data (data-driven decision making)** dalam pengelolaan mahasiswa. Visualisasi performa dan risiko siswa yang dibangun dalam bentuk dashboard juga memudahkan manajemen untuk memantau dan mengambil tindakan strategis secara interaktif dan berkelanjutan.
+
+Secara keseluruhan, solusi yang dibangun dalam proyek ini tidak hanya mampu menurunkan angka dropout secara proaktif, tetapi juga membantu menjaga **reputasi institusi**, **meningkatkan kualitas layanan pendidikan**, dan **memastikan keberlanjutan operasional** kampus melalui pengelolaan mahasiswa yang lebih cerdas dan berbasis teknologi.
+
 
 ### Rekomendasi Action Items
 
