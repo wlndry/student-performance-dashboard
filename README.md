@@ -31,7 +31,7 @@ Untuk menjawab tantangan dari Jaya Jaya Institut, kita akan melakukan hal-hal be
 ### Sumber Data  
 Dataset yang digunakan dalam proyek ini berjudul **Students' Performance** dan diperoleh dari repositori GitHub.
 
-🔗 [Employee Data – GitHub Repository](https://github.com/dicodingacademy/dicoding_dataset/tree/main/students_performance)
+🔗 [Students' Performance – GitHub Repository](https://github.com/dicodingacademy/dicoding_dataset/tree/main/students_performance)
 
 ### Setup Environment  
 Ikuti langkah-langkah berikut untuk menyiapkan dan menjalankan proyek ini di lingkungan lokal Anda:
