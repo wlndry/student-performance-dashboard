@@ -28,11 +28,57 @@ Untuk menjawab tantangan dari Jaya Jaya Institut, kita akan melakukan hal-hal be
 
 ### Persiapan
 
-Sumber data: ....
+### Sumber Data  
+Dataset yang digunakan dalam proyek ini berjudul **Students' Performance** dan diperoleh dari repositori GitHub.
 
-Setup environment:
+🔗 [Employee Data – GitHub Repository](https://github.com/dicodingacademy/dicoding_dataset/tree/main/students_performance)
+
+### Setup Environment  
+Ikuti langkah-langkah berikut untuk menyiapkan dan menjalankan proyek ini di lingkungan lokal Anda:
+
+#### 1. Buat Virtual Environment (Opsional tapi Disarankan)
+```bash
+python -m venv venv
+```
+#### 2. Aktifkan Virtual Environment
+Windows:
+```bash
+.\venv\Scripts\activate
+```
+macOS/Linux:
+```bash
+source venv/bin/activate
+```
+#### 3. Install Dependensi
+Instal semua dependensi yang dibutuhkan dari file requirements.txt:
+```bash
+pip install -r requirements.txt
+```
+#### 4. Jalankan Notebook Analisis
+Silakan buka file **`notebook.ipynb`** menggunakan **Jupyter Notebook** atau **ekstensi Jupyter di VSCode**, lalu jalankan semua sel satu per satu untuk melakukan proses eksplorasi dan analisis terhadap data yang tersedia.
+
+#### 5. Jalankan Dashboard Visualisasi
+Untuk menjalankan dashboard berbasis Streamlit secara lokal, gunakan perintah berikut:
+
+```bash
+streamlit run dashboard.py
+```
+Tunggu hingga browser otomatis terbuka. Jika tidak, buka secara manual alamat yang diberikan, biasanya:
+
+```
+http://localhost:8501
 ```
 
+#### 6. Jalankan Prototype Prediksi
+Untuk menjalankan prototype Streamlit secara lokal, gunakan perintah berikut:
+
+```bash
+streamlit run app.py
+```
+Tunggu hingga browser otomatis terbuka. Jika tidak, buka secara manual alamat yang diberikan, biasanya:
+
+```
+http://localhost:8501
 ```
 
 ## Business Dashboard
@@ -104,7 +150,10 @@ Visualisasi performa mahasiswa berdasarkan:
 
 ---
 
+
 ## Menjalankan Sistem Machine Learning
+![localhost_8501_ (1)](https://github.com/user-attachments/assets/8445c82e-7225-44bd-98c6-09f767182c71)
+
 Prototype ini merupakan aplikasi web interaktif berbasis **Streamlit** yang digunakan untuk memprediksi **status mahasiswa**:  
 - 🔴 Dropout  
 - 🟢 Enrolled  
