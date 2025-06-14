@@ -162,7 +162,7 @@ Contoh hasil prediksi:
 
 ### 🌐 Link Akses Prototype
 
-🔗 [Klik di sini untuk membuka dashboard](https://student-performance-dashboard-qrk5mkxszrb5rrdfzchsob.streamlit.app/)
+🔗 [Klik di sini untuk membuka prototype](https://student-performance-prediction-f6eybl9m9wvjlfmmhvylgx.streamlit.app/)
 
 
 ## Conclusion
