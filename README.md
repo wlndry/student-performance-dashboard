@@ -82,9 +82,9 @@ Visualisasi performa mahasiswa berdasarkan:
 - **Seaborn & Matplotlib**: Visualisasi grafik
 ---
 
-## 🌐 Link Akses Dashboard
+### 🌐 Link Akses Dashboard
 
-🔗 [Klik di sini untuk membuka dashboard]([https://your-username-your-app.streamlit.app](https://student-performance-dashboard-qrk5mkxszrb5rrdfzchsob.streamlit.app/))
+🔗 [Klik di sini untuk membuka dashboard](https://student-performance-dashboard-qrk5mkxszrb5rrdfzchsob.streamlit.app/)
 
 ---
 
